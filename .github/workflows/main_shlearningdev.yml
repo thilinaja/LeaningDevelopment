@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'shlearningdev'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A85D7C19824C46C68EC2EC302422771C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4262B59B07FF49188AA43002BFFCAC27 }}
           package: .
