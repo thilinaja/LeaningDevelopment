@@ -1,0 +1,82 @@
+<!-- Cards -->
+<div fxLayout="row wrap" fxLayoutGap="30px grid">
+    <div *ngFor="let card of cards" fxFlex.lg="33%" fxFlex.md="33%" fxFlex.sm="100%" fxFlex.xl="33%">
+        <mat-card class="overflow-hidden h-100">
+            <div>            <div class="ls-mt-btn"> <button mat-raised-button color="{{card.colors}}" >{{card.fxLable}}</button></div>
+                <img alt="" class="w-100" src="{{ card.image }}">
+            </div>
+            <mat-card-content>
+
+                <div>
+                    <p class="fs-18 lh-lg fw-medium">
+                        {{card.lessionTitle}}
+                    </p>
+                    <p class="fs-12">
+                        {{card.lessionSubTitle}}
+                    </p>
+
+                    <div class="fw-normal mt-4">
+
+
+                        <div class="d-flex no-block align-items-center mb-3">
+                        <span class="d-flex align-items-center">
+ <svg height="17.122" viewBox="0 0 18.227 17.122" width="18.227" xmlns="http://www.w3.org/2000/svg">
+            <g id="date-outline-badged" transform="translate(-2 -1)">
+              <path d="M18.57,9.988v9.268H3.1V7.1H4.762V6h-1.8A.983.983,0,0,0,2,7V19.361a.983.983,0,0,0,.967,1H18.708a.983.983,0,0,0,.967-1V9.5a4.115,4.115,0,0,1-1.1.486Z" data-name="Path 7"
+                    fill="#778794"
+                    id="Path_7" transform="translate(0 -2.238)"/>
+              <path d="M8,14H9.1v1.1H8Z" data-name="Path 8" fill="#778794" id="Path_8"
+                    transform="translate(-2.686 -5.82)"/>
+              <path d="M14,14h1.1v1.1H14Z" data-name="Path 9" fill="#778794" id="Path_9"
+                    transform="translate(-5.372 -5.82)"/>
+              <path d="M20,14h1.1v1.1H20Z" data-name="Path 10" fill="#778794" id="Path_10"
+                    transform="translate(-8.058 -5.82)"/>
+              <path d="M26,14h1.1v1.1H26Z" data-name="Path 11" fill="#778794" id="Path_11"
+                    transform="translate(-10.744 -5.82)"/>
+              <path d="M8,19H9.1v1.1H8Z" data-name="Path 12" fill="#778794" id="Path_12"
+                    transform="translate(-2.686 -8.058)"/>
+              <path d="M14,19h1.1v1.1H14Z" data-name="Path 13" fill="#778794" id="Path_13"
+                    transform="translate(-5.372 -8.058)"/>
+              <path d="M20,19h1.1v1.1H20Z" data-name="Path 14" fill="#778794" id="Path_14"
+                    transform="translate(-8.058 -8.058)"/>
+              <path d="M26,19h1.1v1.1H26Z" data-name="Path 15" fill="#778794" id="Path_15"
+                    transform="translate(-10.744 -8.058)"/>
+              <path d="M8,24H9.1v1.1H8Z" data-name="Path 16" fill="#778794" id="Path_16"
+                    transform="translate(-2.686 -10.296)"/>
+              <path d="M14,24h1.1v1.1H14Z" data-name="Path 17" fill="#778794" id="Path_17"
+                    transform="translate(-5.372 -10.296)"/>
+              <path d="M20,24h1.1v1.1H20Z" data-name="Path 18" fill="#778794" id="Path_18"
+                    transform="translate(-8.058 -10.296)"/>
+              <path d="M26,24h1.1v1.1H26Z" data-name="Path 19" fill="#778794" id="Path_19"
+                    transform="translate(-10.744 -10.296)"/>
+              <path d="M9.552,6.419a.552.552,0,0,0,.552-.552V2.552a.552.552,0,0,0-1.1,0V5.866A.552.552,0,0,0,9.552,6.419Z" data-name="Path 20"
+                    fill="#778794"
+                    id="Path_20" transform="translate(-3.134 -0.448)"/>
+              <path d="M18.247,6H13V7.1h5.4A4.137,4.137,0,0,1,18.247,6Z" data-name="Path 21" fill="#778794"
+                    id="Path_21" transform="translate(-4.924 -2.238)"/>
+              <path d="M30.523,3.762A2.762,2.762,0,1,1,27.762,1,2.762,2.762,0,0,1,30.523,3.762Z" data-name="Path 22"
+                    fill="#778794"
+                    id="Path_22" transform="translate(-10.297)"/>
+            </g>  </svg>
+                          <span class="ls-fx3">April 14, 2023</span></span>
+                            <div class="ms-auto">
+               <span class="ls-rgx"><svg height="17.005" viewBox="0 0 17.005 17.005" width="17.005" xmlns="http://www.w3.org/2000/svg">
+                    <g id="time" transform="translate(-2.25 -2.25)">
+                        <path d="M10.752,19.255a8.5,8.5,0,1,1,8.5-8.5A8.5,8.5,0,0,1,10.752,19.255Zm0-15.79a7.288,7.288,0,1,0,7.288,7.288A7.288,7.288,0,0,0,10.752,3.465Z" data-name="Path 23"
+                              fill="#778794"
+                              id="Path_23"/>
+                        <path d="M20.27,16.985l-3.4-3.4V7.875H18.09v5.211l3.037,3.043Z" data-name="Path 24" fill="#778794"
+                              id="Path_24" transform="translate(-6.73 -2.588)"/>
+                    </g>
+                </svg>
+</span>
+                                <span class="ls-fx3">4.5 Hours</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>
+
