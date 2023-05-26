@@ -1,0 +1,59 @@
+.ls-con .icon-container {
+  width: 24px; /* Adjust the size as per your requirements */
+  height: 24px;
+  margin-right: 12px; /* Adjust the spacing between the icon and the message */
+}
+
+.ls-con .message-container {
+  flex-grow: 1; /* Allow the message to expand and fill the remaining space */
+}
+.ls-rgt-px {margin-top: 2rem;}
+.ls-mt-btn-tps {    position: absolute;
+  float: right;
+  right: 1rem;
+  top: -1rem;}
+.mat-xd-bot{margin-top: 2rem;}
+.ls-rgt-px-rgt {margin-top: 2rem; margin-left: 1rem;}
+.rgt-padding {margin-top: 2rem;}
+.custom-card {
+  display: flex;
+}
+
+.right-side {
+  flex: 0.245;
+  background-color: #27C3F3;
+  display: flex;  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  align-items: center; cursor: pointer;
+  justify-content: center;
+  /* Additional styles for the right side */
+}
+
+.enroll-text {
+  color: white;
+  font-size: 14px;
+  /* Additional styles for the "enroll" text */
+}
+
+.left-side {  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  flex: 0.7; /* Adjust the value to allocate remaining width to the left side */
+  padding: 16px; background: #243247;
+  /* Additional styles for the left side */
+}
+.ls-mat-bot{margin-top: 2rem;}
+.ls-mat-time{font-size: 9px;
+  color: #778794;margin-bottom: 0px;}
+.ls-mid-date{font-size: 11px;
+  color: #ffffff;margin-bottom: 0px;}
+.ls-region{color: #27C3F3;margin-bottom: 0px;}
+.right-side:hover {
+  flex: 0.245;  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  display: flex;
+  align-items: center; cursor: pointer;
+  justify-content: center;
+  /* Additional styles for the right side */
+}
+.right-side:hover .enroll-text {
+  color: #27C3F3;  font-size: 14px;
+}
+

@@ -1,0 +1,214 @@
+<ngx-spinner [fullScreen]="true" bdColor="rgba(0, 0, 0, 0.8)" color="#fff" size="medium" type="square-jelly-box"><p
+        style="color: #ffffff"> Loading... </p></ngx-spinner>
+
+
+<div class="" style="position: relative;
+    top: -2rem;">
+    <mat-grid-list class="" cols="12" gutterSize="16px" rowHeight="900px">
+        <!-- First section with 8 columns -->
+        <mat-grid-tile colspan="8">
+
+            <div class="img-top">
+                <span (click)="navigate()" class="mc-cur" style="top: 1rem; position: relative;"><mat-icon
+                        class="mat-ic"> keyboard_arrow_left </mat-icon>Back</span>
+                <div class="ls-mt-xc">
+                    <small class="ls-sm-3w">Microsoft Office Skills Development</small>
+                    <h3 style="margin-top: 0.5rem !important;">Working with Microsoft Excel</h3>
+
+                </div>
+                <div class="ms-auto-x">
+
+                    <div class=" ">
+
+
+                        <div class="d-flex  align-items-center mb-3">
+                        <span class="d-flex align-items-center">
+ <img src="assets/images/time.svg">
+                          <span class="ls-fx3">15 Hours</span></span>
+                            <div class="ms-auto-xms">
+               <span class="">
+
+                    <div class="ls-mt-btn-cv"> <button color="primary-sm" mat-raised-button style="background: #243247;
+  font-size: 10px;">INTERNAL</button></div>
+</span>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="ls-enroll-sm"><p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                    sagittis nec magna vel semper. Morbi finibus, ante sed auctor porttitor, ex nunc viverra nibh, eu
+                    pulvinar libero libero ut massa. Curabitur commodo malesuada posuere. Phasellus tincidunt, ligula
+                    vitae dapibus commodo, nulla leo efficitur nibh, in interdum risus velit at sem. Aenean blandit nibh
+                    eu sodales vulputate. Quisque et erat velit. Suspendisse semper at dui quis aliquet.</p>
+                </div>
+
+
+                <div class="ls-sub-grid">
+
+                    <mat-grid-list cols="12" gutterSize="16px">
+                        <mat-grid-tile colspan="6"><p>LEARNING OUTCOMES</p>
+
+
+                            <div></div>
+
+
+                        </mat-grid-tile>
+                        <mat-grid-tile colspan="6"><p>SESSION </p></mat-grid-tile>
+                    </mat-grid-list>
+
+                </div>
+                <mat-grid-list cols="12" gutterSize="16px" rowHeight="900px">
+                    <mat-grid-tile colspan="6">
+
+                        <div class="ls-con">
+
+                            <!-- Alerts -->
+
+
+                            <div *ngFor="let alert of alerts"
+                                 class="{{ alert.background }} {{ alert.color }} d-flex align-items-center mb-16"
+                                 role="alert">
+                                <div class="icon-container">
+                                    <i-feather class="{{ alert.iconColor }} feather-base"
+                                               name="{{ alert.icon }}"></i-feather>
+                                </div>
+                                <div class="message-container">
+                                    {{ alert.message }}
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div></div>
+
+
+                    </mat-grid-tile>
+                    <mat-grid-tile colspan="6">
+                        <div>
+                            <p class="ls-px-txt">01 Session</p>
+                            <div class="ls-rgt-px">
+                                <p>SCHEDULES AVAILABLE</p>
+                            </div>
+                            <div class="mat-xd-bot">
+                                <mat-card class="">
+                                    <div class="ls-mt-btn-tps">
+                                        <button color="color-xd-blue" mat-raised-button style="background: #27C3F3;">
+                                            US/UK
+                                        </button>
+                                    </div>
+                                    <div>
+
+                                    </div>
+                                    <mat-card-content style="padding: 15px !important;">
+                                        <div>
+                                            <p class="fs-12">Commencing on</p>
+                                            <div class="fw-normal mt-4">
+                                                <div class="d-flex no-block align-items-center mb-3">
+                <span class="d-flex align-items-center">
+                  <span class="ls-fx33">April 14, 2023, Friday</span>
+                </span>
+                                                    <div class="ms-auto">
+                                                        <span class="ls-rgx"></span>
+                                                        <span class="ls-fx333">2.00 PM - 3.30 PM (EST)</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </mat-card-content>
+                                </mat-card>
+
+
+                                <mat-card class="">
+                                    <div class="ls-mt-btn-tps">
+                                        <button color="color-xd-blue" mat-raised-button style="background: #27C3F3;">
+                                            US/UK
+                                        </button>
+                                    </div>
+                                    <div>
+
+                                    </div>
+                                    <mat-card-content style="padding: 15px !important;">
+                                        <div>
+                                            <p class="fs-12">Commencing on</p>
+                                            <div class="fw-normal mt-4">
+                                                <div class="d-flex no-block align-items-center mb-3">
+                <span class="d-flex align-items-center">
+                  <span class="ls-fx33">April 14, 2023, Friday</span>
+                </span>
+                                                    <div class="ms-auto">
+                                                        <span class="ls-rgx"></span>
+                                                        <span class="ls-fx333">2.00 PM - 3.30 PM (EST)</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </mat-card-content>
+                                </mat-card>
+                            </div>
+                        </div>
+                    </mat-grid-tile>
+
+                </mat-grid-list>
+            </div>
+
+
+        </mat-grid-tile>
+
+        <!-- Second section with 4 columns -->
+        <mat-grid-tile colspan="4" style="background: #19273B;">
+
+            <div class="ls-rgt-px-rgt">
+                <h3>Enroll Now</h3>
+                <div class="ls-rgt-px-rgt-para">
+                    <p class="ls-enroll-sm-rgt">Click on your preferred scheduled below fill out the Microsoft Form with
+                        your information to enroll to the program.</p>
+
+
+                    <div class="rgt-padding">
+                        <p>DISCLAIMER</p>
+                        <div class="ls-rgt-px-rgt-para">
+                            <p class="ls-enroll-sm-rgt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                                sagittis nec magna vel semper.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--enroll item start-->
+                <div class="ls-mat-bot">
+                    <mat-card class="custom-card">
+                        <div class="left-side">
+                            <p class="ls-region">US/UK</p>
+                            <p class="ls-mid-date">April 14, 2023, Friday</p>
+                            <p class="ls-mat-time">2.00 PM - 3.30 PM (EST)</p>
+                        </div>
+                        <div class="right-side">
+                            <span class="enroll-text">Enroll</span>
+                        </div>
+                    </mat-card>
+
+                    <mat-card class="custom-card">
+                        <div class="left-side">
+                            <p class="ls-region">APAC</p>
+                            <p class="ls-mid-date">April 14, 2023, Friday</p>
+                            <p class="ls-mat-time">2.00 PM - 3.30 PM (EST)</p>
+                        </div>
+                        <div class="right-side">
+                            <span class="enroll-text">Enroll</span>
+                        </div>
+                    </mat-card>
+                </div>
+
+                <!--enroll item end-->
+            </div>
+
+        </mat-grid-tile>
+
+
+    </mat-grid-list>
+
+
+</div>
+
