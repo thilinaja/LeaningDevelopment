@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27">
+  <g id="microsoft" transform="translate(-4.5 -4.5)">
+    <path id="Path_1" data-name="Path 1" d="M4.5,4.5h12v12H4.5Z" fill="#fff"/>
+    <path id="Path_2" data-name="Path 2" d="M4.5,19.5h12v12H4.5Z" fill="#fff"/>
+    <path id="Path_3" data-name="Path 3" d="M19.5,4.5h12v12h-12Z" fill="#fff"/>
+    <path id="Path_4" data-name="Path 4" d="M19.5,19.5h12v12h-12Z" fill="#fff"/>
+  </g>
+</svg>
