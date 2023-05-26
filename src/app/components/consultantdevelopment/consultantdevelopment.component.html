@@ -1,0 +1,30 @@
+<ngx-spinner [fullScreen]="true" bdColor="rgba(0, 0, 0, 0.8)" color="#fff" size="medium" type="square-jelly-box"><p
+        style="color: #ffffff"> Loading... </p></ngx-spinner>
+
+<div fxLayout="row" fxLayoutGap="16px">
+    <!-- Left Side -->
+    <div fxFlex="50%">
+        <h3>Consultant Development</h3>
+        <small class="ls-sm-3">Lorem ipsum dolor sit amet, consectetur adipiscing</small>
+    </div>
+
+    <!-- Right Side -->
+    <div fxFlex="50%" fxLayoutAlign="end">
+        <div class="search-container">
+            <mat-form-field class="search-input"  >
+                <input matInput placeholder="Search Courses"  >
+                <button mat-icon-button matSuffix >
+                    <mat-icon>search</mat-icon>
+                </button>
+            </mat-form-field>
+        </div>
+    </div>
+</div>
+
+
+<div class="mt-5x">
+    <app-con-card></app-con-card>
+
+</div>
+
+
