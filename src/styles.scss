@@ -1,0 +1,257 @@
+// You can use your custom style here. :)
+
+
+
+@import '~@angular/material/theming';
+body{
+  font-family: 'Epilogue', sans-serif;
+}
+
+// Define your primary, accent, and warn colors
+$my-app-primary: mat-palette($mat-indigo);
+$my-app-accent: mat-palette($mat-pink, A200, A100, A400);
+$my-app-warn: mat-palette($mat-red);
+
+// Create a theme using the primary, accent, and warn colors
+$my-app-theme: mat-dark-theme($my-app-primary, $my-app-accent, $my-app-warn);
+
+// Include the theme in your application
+@include angular-material-theme($my-app-theme);
+
+// Add any custom styles or overrides
+// ...
+
+// Add a class to enable dark mode
+.dark-mode {
+  @include angular-material-theme($my-app-theme);
+}
+.mat-drawer-container {
+  background-color: #0e1827 !important;
+  color: #ffff!important;
+}
+.dark-mode .mat-card {
+  background: #19273b;
+  color: white;
+}
+.sidenav .sidebar-menu.activelink {
+   background-color: #27c3f3 !important;
+   color: #fff !important;
+ }
+.sidenav {
+  background: linear-gradient(to bottom, #1A2026, rgb(16 24 33)) !important;  /* Background color with opacity */
+  backdrop-filter: blur(8px)!important; /* Apply blur effect to the background */
+  /* Add any other styles you want for the sidebar */
+}
+.sidenav::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(assets/images/L-D-Img.png); /* Replace with the path to your background image */
+  background-size: cover;filter: blur(10px);
+  opacity: 0.5; /* Adjust the opacity of the background image */
+  z-index: -1; /* Ensure the background stays behind the sidebar content */
+}
+/*
+.sidenav {
+  width: 280px !important;
+}
+*/
+
+.dark-mode .mat-drawer-side {
+  border-right: solid 0px rgba(255, 255, 255, 0.12)!important;
+}
+.fs-18 {
+  font-size:16px !important;
+}
+.fs-12 {
+  color: #778794 !important;
+  font-size:12px !important;
+}
+.mat-card {
+  margin-bottom: 30px !important;
+  box-shadow: 0px 7px 30px 0px rgba(113, 122, 131, 0.11) !important;
+  border-radius: 1px !important;
+  padding: 0 !important;
+}
+.ls-fx3 {    font-size: 13px;
+  text-indent: 11px;
+  color: #778794;}
+.ls-fx33 {    font-size: 11px;
+
+  color: #ffffff;}
+.ls-fx333 {        font-size: 9px;
+  color: #778794;
+  /* text-indent: 5rem; */
+  float: right;
+  margin-left: 1rem;
+}
+.ls-rgx {
+  left: -0.6rem;
+  position: relative;
+  top: 0.2rem;
+
+}
+
+.mt-5x{
+  margin-top: 30px;
+}
+.ls-sm-3 {color: #778794;
+}
+h3 {
+
+  margin: 0 0 5px !important;
+}
+.ls-mt-btn {position: absolute;
+  float: right;
+  right: 16px;
+  top: 13px;}
+.dark-mode .mat-flat-button.mat-accents, .dark-mode .mat-raised-button.mat-accents, .dark-mode .mat-fab.mat-accents, .dark-mode .mat-mini-fab.mat-accents {
+  background-color: #000000 !important;
+}
+.dark-mode .mat-flat-button.mat-primary, .dark-mode .mat-raised-button.mat-primary, .dark-mode .mat-fab.mat-primary, .dark-mode .mat-mini-fab.mat-primary {
+  background-color: #27C3F3 !important;
+}
+p.watch {color: #A982F8;font-size: 12px;text-transform: capitalize;}
+p.read {color: #2EDFC1;font-size: 12px;text-transform: capitalize;}
+p.listing{color: #F65B5B;font-size: 12px;text-transform: capitalize;}
+
+
+.ls-sm-3w {color: #27C3F3;
+}
+.mat-ic {position: relative;
+  top: 0.4rem; cursor: pointer;}
+
+.ls-mt-xc {margin-top: 3rem}
+.mc-cur {cursor: pointer; }
+.mc-cur:hover {cursor: pointer;color: #27C3F3; }
+
+.mat-grid-tile-content {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  align-items: start !important;
+  justify-content: start !important;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.primary-sm {    background: #243247;
+  font-size: 10px;
+
+ }
+.ms-auto-x{position: relative;
+margin-top: 2rem;}
+.ms-auto-xms {text-indent: 4rem;}
+.ls-enroll-sm{position: relative;margin-top: 2rem;color: #778794;}
+.ls-sub-grid{margin-top: 3rem;}
+.ls-sub-grid.mat-grid-tile-content {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  align-items: start !important;
+  justify-content: start !important;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.alert-dark-bg{background: transparent;}
+.alert-text-dark-bg{color: #778794;}
+.icon-dark-clr{color: #27C3F3;font-size: 12px;}
+.ls-px-txt{color: #778794;}
+.color-xd-blue{background: #27C3F3!important;color: #ffffff;}
+.ls-enroll-sm-rgt{color: #778794;}
+div.img-top::before {height: 230px;
+  background-image: url(assets/images/bg-top.svg);
+  background-size: cover;
+  filter: blur(10px);
+  opacity: 0.2;
+  background-size: cover;
+  background-position: center;
+  background-color: #1A2026;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-size: cover;filter: blur(10px);
+
+  z-index: -1; /* Ensure the background stays behind the sidebar content */
+
+
+}
+
+.auth-wrapper {
+  position: relative;
+  min-height: 100vh;
+}
+.auth-wrapper .auth-box.on-sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+.auth-wrapper .auth-box {
+  box-shadow: 1px 0 20px rgba(0,0,0,.08);
+  margin: 10% 0;
+  max-width: 400px;
+  width: 90%;
+}
+.auth-wrapper #recoverform {
+  display: none;
+}
+.fs-26 {
+  font-size: 17px !important;
+  text-transform: uppercase;
+}
+.sidenav .buy-flexy {
+  background-color: transparent !important;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: -2rem !important;
+
+  padding: 10px;
+}
+
+
+.ls-msd {color: #27C3F3;cursor: pointer; }
+.ls-sign-out{color: #27C3F3; cursor: pointer;}
+.ls-nav-bot{
+  margin-top: 17px;
+  position: relative;}
+.sidenav .sidebar-menu {
+  padding: 8px 7px !important;
+  border-radius: 0px;
+  font-size: 13px !important;
+}
+.ls-msd:hover {color: #ffffff;cursor: pointer; }
+.ls-sign-out:hover{color: #ffffff; cursor: pointer;}
+.text-indigo {
+  color: #27c3f3 !important;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0E1827;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #19273B;
+}
+.dark-mode .mat-input-element {
+  caret-color: #27c3f3 !important;
+}
