@@ -1,0 +1,66 @@
+#loginform {
+  background: #0E1827;
+}
+
+.login-p {
+  color: #778794;
+  margin-top: 2rem;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.block-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+  background-color: #27C3F3;
+  color: #ffffff;
+  border: none;
+  border-radius: 0px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.block-button i {
+  margin-right: 8px;
+}
+
+.login-ms {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.db img {
+  margin-left: -3.5rem;
+  top: -2rem;
+  position: relative;
+}
+
+.block-button:hover {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #27C3F3;
+  border: none;
+  border-radius: 0px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.block-button svg {
+  position: relative;
+  top: 0.2rem;
+  fill: #fff;
+  transition: fill 0.3s ease;
+}
+
+.block-button:hover svg {
+  fill: #27C3F3;
+}
+@media (max-width: 767px) {
+  .auth-wrapper {
+    background: none;
+  }
+}
