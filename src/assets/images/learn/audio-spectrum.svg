@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91.683" height="91.683" viewBox="0 0 91.683 91.683">
+  <g id="audio-spectrum" transform="translate(-1.125 -1.125)">
+    <path id="Path_78" data-name="Path 78" d="M1.125,11.25H7.237V47.923H1.125Z" transform="translate(0 17.38)" fill="#f65b5b"/>
+    <path id="Path_79" data-name="Path 79" d="M26.438,11.25H32.55V47.923H26.438Z" transform="translate(43.45 17.38)" fill="#f65b5b"/>
+    <path id="Path_80" data-name="Path 80" d="M7.313,6.188h6.112V68.839H7.313Z" transform="translate(10.622 8.691)" fill="#f65b5b"/>
+    <path id="Path_81" data-name="Path 81" d="M20.25,6.75h6.112V67.872H20.25Z" transform="translate(32.829 9.655)" fill="#f65b5b"/>
+    <path id="Path_82" data-name="Path 82" d="M32.625,6.75h6.112V67.872H32.625Z" transform="translate(54.071 9.655)" fill="#f65b5b"/>
+    <path id="Path_83" data-name="Path 83" d="M13.5,1.125h6.112V92.808H13.5Z" transform="translate(21.242)" fill="#f65b5b"/>
+  </g>
+</svg>
