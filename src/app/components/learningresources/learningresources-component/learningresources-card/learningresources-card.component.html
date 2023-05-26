@@ -1,0 +1,29 @@
+<!-- Cards -->
+<div fxLayout="row wrap" fxLayoutGap="30px grid">
+    <div *ngFor="let card of cards" fxFlex.lg="33%" fxFlex.md="33%" fxFlex.sm="100%" fxFlex.xl="33%">
+        <mat-card class="overflow-hidden h-100">
+            <div>            <div class="ls-mt-btn"> <p class="{{card.colorstop}}">{{card.fxRead}}</p></div>
+            </div>
+            <mat-card-content>
+                <img alt="" class="w-100" src="{{ card.image }}" style="
+    width:60px;
+">
+                <div>
+                    <div>
+                        <div class="ls-mt-btn-xc" style="    margin-top: 1rem;"> <button style="font-size: 12px;" mat-raised-button color="{{card.colors}}" >{{card.fxLable}}</button></div>
+                    </div>
+                    <p class="fs-18 lh-lg fw-medium " style="    margin-top: 1rem;">
+                        {{card.lessionTitle}}
+                    </p>
+                    <p class="fs-12">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                    </p>
+
+
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>
+
+
